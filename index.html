@@ -1,94 +1,202 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Sai Harish Ganji | Data Analyst Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header class="hero">
-    <nav>
-      <strong>Sai Harish Ganji</strong>
-      <div>
-        <a href="#projects">Projects</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio website for Sai Harish Ganji, focused on data analysis, Python projects, and software development."
+    />
+    <title>Sai Harish Ganji | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home">Sai Harish</a>
+      <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
         <a href="#skills">Skills</a>
-        <a href="https://github.com/harganji">GitHub</a>
-      </div>
-    </nav>
-    <section class="hero-content">
-      <p class="eyebrow">Data Analyst Portfolio</p>
-      <h1>Turning raw data into business insight, dashboards, and decision-ready recommendations.</h1>
-      <p>I build analytics projects using SQL, Python, MySQL, Tableau, and Power BI planning, with a focus on clear business questions, clean analysis, and stakeholder-ready storytelling.</p>
-      <div class="hero-actions">
-        <a class="button primary" href="#projects">View Projects</a>
-        <a class="button" href="https://github.com/harganji">GitHub Profile</a>
-      </div>
-    </section>
-  </header>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
 
-  <main>
-    <section id="projects" class="section">
-      <div class="section-heading">
-        <p class="eyebrow">Featured Work</p>
-        <h2>Portfolio Projects</h2>
-      </div>
-
-      <article class="project-card with-image">
-        <img src="https://raw.githubusercontent.com/harganji/Customer_behavior_analysis-/main/dashboard/customer_shopping_dashboard.png" alt="Customer shopping dashboard preview">
-        <div>
-          <p class="tag">Retail Analytics | Python | SQL | Tableau</p>
-          <h3>Customer Shopping Behavior Analysis</h3>
-          <p>An end-to-end retail analysis project focused on revenue drivers, customer segmentation, estimated CLV, churn-risk signals, discount impact, and business recommendations.</p>
-          <ul>
-            <li>Cleaned and engineered 3,900 customer shopping records.</li>
-            <li>Built advanced SQL queries with RFM segmentation, window functions, and cohort-style analysis.</li>
-            <li>Created Tableau-ready dashboard assets and Power BI dashboard planning documentation.</li>
-            <li>Added RandomForest models for high-value customer prediction and purchase amount estimation.</li>
-          </ul>
-          <div class="links">
-            <a href="https://github.com/harganji/Customer_behavior_analysis-">Repository</a>
-            <a href="https://github.com/harganji/Customer_behavior_analysis-/blob/main/dashboard/customer_shopping_dashboard.png">Dashboard Preview</a>
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-content">
+          <p class="eyebrow">Hi, I am</p>
+          <h1>Sai Harish<br />Ganji.</h1>
+          <p class="role">Data Analytics & Python Developer</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="https://www.linkedin.com/in/saiharishganji" target="_blank" rel="noreferrer">
+              LinkedIn Profile
+            </a>
+            <a class="btn secondary" href="https://github.com/harganji" target="_blank" rel="noreferrer">
+              GitHub Portfolio
+            </a>
           </div>
         </div>
-      </article>
-
-      <article class="project-card with-image">
-        <img src="https://raw.githubusercontent.com/harganji/project_masters/main/dashboard/car_company_dashboard.png" alt="Car company dashboard preview">
-        <div>
-          <p class="tag">Database Design | SQL Server | MySQL | Tableau</p>
-          <h3>Car Company Database Management System</h3>
-          <p>A masters-level relational database project for a car company, rebuilt with normalized schema design, primary and foreign keys, sample data, SQL business queries, and dashboard outputs.</p>
-          <ul>
-            <li>Designed entities for offices, employees, customers, products, orders, order details, and payments.</li>
-            <li>Created SQL Server and MySQL implementation scripts.</li>
-            <li>Generated business outputs for product revenue, customer revenue, employee contribution, inventory risk, and payment methods.</li>
-            <li>Added ERD, data dictionary, project report, and Tableau-ready dashboard assets.</li>
-          </ul>
-          <div class="links">
-            <a href="https://github.com/harganji/project_masters">Repository</a>
-            <a href="https://github.com/harganji/project_masters/blob/main/dashboard/car_company_dashboard.png">Dashboard Preview</a>
+        <div class="hero-card" aria-label="Profile summary">
+          <div class="monogram">SH</div>
+          <p>Portfolio</p>
+          <h2>Sai Harish Ganji</h2>
+          <div class="hero-tags">
+            <span>Python</span>
+            <span>Data Analysis</span>
+            <span>GitHub Pages</span>
           </div>
         </div>
-      </article>
-    </section>
+      </section>
 
-    <section id="skills" class="section split">
-      <div>
-        <p class="eyebrow">Skills</p>
-        <h2>Analytics Toolkit</h2>
-        <p>I focus on practical data analysis workflows that move from raw data to business recommendations.</p>
-      </div>
-      <div class="skill-grid">
-        <span>SQL</span><span>MySQL</span><span>SQL Server</span><span>Python</span><span>Pandas</span><span>Tableau</span><span>Power BI</span><span>Data Cleaning</span><span>EDA</span><span>Dashboard Design</span><span>Business Insights</span><span>Machine Learning Basics</span>
-      </div>
-    </section>
+      <section class="section split" id="about">
+        <div>
+          <p class="section-kicker">About Me</p>
+          <h2>I build data-driven projects with practical, readable code.</h2>
+        </div>
+        <div class="about-copy">
+          <p>
+            I am Sai Harish Ganji, a developer and data analytics learner focused on Python,
+            customer behavior analysis, and portfolio-ready web projects. My work combines data
+            exploration, clean presentation, and a steady focus on useful outcomes.
+          </p>
+          <div class="details-grid">
+            <div>
+              <span>GitHub</span>
+              <a href="https://github.com/harganji" target="_blank" rel="noreferrer">github.com/harganji</a>
+            </div>
+            <div>
+              <span>LinkedIn</span>
+              <a href="https://www.linkedin.com/in/saiharishganji" target="_blank" rel="noreferrer">
+                linkedin.com/in/saiharishganji
+              </a>
+            </div>
+            <div>
+              <span>Focus</span>
+              <p>Python, data analysis, dashboards, and web portfolio development</p>
+            </div>
+            <div>
+              <span>Location</span>
+              <p>India</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-    <section class="section contact">
-      <p class="eyebrow">Contact</p>
-      <h2>Open to data analyst opportunities.</h2>
-      <p>Add your LinkedIn, email, and resume link here when ready.</p>
-    </section>
-  </main>
-</body>
+      <section class="section timeline-section" id="education">
+        <p class="section-kicker">Education</p>
+        <h2>Academic Journey</h2>
+        <div class="timeline">
+          <article class="timeline-item">
+            <span class="year">Current</span>
+            <h3>Master's Project Work</h3>
+            <p>Project-based learning with Python and data analysis workflows.</p>
+          </article>
+          <article class="timeline-item">
+            <span class="year">Ongoing</span>
+            <h3>Data Analytics Practice</h3>
+            <p>Building skills through analysis projects, repositories, and applied portfolio work.</p>
+          </article>
+          <article class="timeline-item">
+            <span class="year">Portfolio</span>
+            <h3>Web Development</h3>
+            <p>Creating responsive web pages with HTML, CSS, JavaScript, and GitHub Pages.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section skills-section" id="skills">
+        <p class="section-kicker">Skills</p>
+        <h2>Technical Strengths</h2>
+        <div class="skills-grid">
+          <article>
+            <h3>Data Analysis</h3>
+            <p>Python, Pandas, data cleaning, exploratory analysis, customer behavior insights</p>
+          </article>
+          <article>
+            <h3>Programming</h3>
+            <p>Python, HTML, CSS, JavaScript basics, Git, GitHub, project documentation</p>
+          </article>
+          <article>
+            <h3>Visualization</h3>
+            <p>Charts, dashboard thinking, storytelling with metrics, portfolio presentation</p>
+          </article>
+          <article>
+            <h3>Professional Skills</h3>
+            <p>Problem solving, analytical thinking, communication, consistent self-learning</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section projects-section" id="projects">
+        <p class="section-kicker">Projects</p>
+        <h2>Selected Work</h2>
+        <div class="project-grid">
+          <article class="project-card">
+            <span class="project-type">Python</span>
+            <h3>Customer Behavior Analysis</h3>
+            <p>
+              Analysis project focused on customer shopping trends and behavior patterns using Python.
+            </p>
+            <a href="https://github.com/harganji/Customer_behavior_analysis-" target="_blank" rel="noreferrer">
+              View Project
+            </a>
+          </article>
+          <article class="project-card">
+            <span class="project-type">Python</span>
+            <h3>Project Masters</h3>
+            <p>
+              Master's project repository with applied Python work and structured project development.
+            </p>
+            <a href="https://github.com/harganji/project_masters" target="_blank" rel="noreferrer">View Project</a>
+          </article>
+          <article class="project-card">
+            <span class="project-type">HTML</span>
+            <h3>Personal Portfolio</h3>
+            <p>
+              GitHub Pages portfolio project for presenting work, skills, and contact links online.
+            </p>
+            <a href="https://github.com/harganji/harganji.github.io" target="_blank" rel="noreferrer">
+              View Project
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div class="contact-panel">
+          <div>
+            <p class="section-kicker">Contact Me</p>
+            <h2>Let us connect.</h2>
+            <p>
+              I am open to data analytics, Python, and web portfolio opportunities. The best places
+              to reach me are LinkedIn and GitHub.
+            </p>
+          </div>
+          <div class="contact-links">
+            <a href="https://www.linkedin.com/in/saiharishganji" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="https://github.com/harganji" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Sai Harish Ganji. Designed and developed for a personal portfolio.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>
