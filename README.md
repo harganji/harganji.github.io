@@ -1,6 +1,6 @@
-# Sai Harish Ganji - Data Analyst Portfolio
+# Sai Harish Ganji Portfolio
 
-This repository hosts my data analyst portfolio website through GitHub Pages.
+A responsive one-page portfolio inspired by the structure of the referenced Browny-style resume site.
 
 Live site:
 
@@ -8,33 +8,13 @@ Live site:
 https://harganji.github.io
 ```
 
-## Featured Projects
+## Files
 
-### Customer Shopping Behavior Analysis
+- `index.html` - page structure and portfolio content
+- `styles.css` - responsive visual design
+- `script.js` - mobile navigation and active section highlighting
 
-Retail analytics project using Python, MySQL, SQL, Tableau-ready assets, Power BI planning, segmentation, CLV analysis, discount impact analysis, and machine learning.
+## Links
 
-Repository:
-https://github.com/harganji/Customer_behavior_analysis-
-
-### Car Company Database Management System
-
-Database design and SQL analytics project covering relational schema design, SQL Server/MySQL scripts, ERD, business outputs, and dashboard assets.
-
-Repository:
-https://github.com/harganji/project_masters
-
-## Skills Highlighted
-
-- SQL
-- MySQL
-- SQL Server
-- Python
-- Pandas
-- Tableau
-- Power BI planning
-- Dashboard design
-- Data cleaning
-- Exploratory data analysis
-- Business insights
-- Machine learning basics
+- LinkedIn: https://www.linkedin.com/in/saiharishganji
+- GitHub: https://github.com/harganji
